@@ -1,0 +1,24 @@
+{
+  "development": {
+      "config_id": "development",
+      "app_name": "Zift Payment",
+      "app_desc": "Zift Payment Integration",
+      "requestType": "sale",
+      "apiUrlProcessing": "https://sandbox-secure.ziftpay.com/gates/xurl?",
+      "apiUrlMerchant": "https://sandbox-manage.ziftpay.com/gates/onboarding?",
+      "username": "api-ambidtech-m",
+      "password": "27lbbR4HISeD77hb3cYos42uC5IHnAoi",
+      "accountId": "2050001",
+      "accountType": "R",
+      "transactionIndustryType": "RE",
+      "holderType": "P"
+  },
+  "production": {
+      "config_id": "production",
+      "apiUrlProcessing": "https://secure.ziftpay.com/gates/xurl?",
+      "apiUrlMerchant": "https://manage.ziftpay.com/gates/onboarding?",
+      "username": "api-ambidtech-m",
+      "password": "27lbbR4HISeD77hb3cYos42uC5IHnAoi",
+      "accountId": "2050001"
+  }
+}
